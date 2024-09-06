@@ -6,6 +6,7 @@ import Landing from "../components/Home/Landing";
 import Live from "../components/Home/Live";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import PriceOffBanner from "../components/Home/PriceOffBanner";
 
 const imageUrls = [
     'https://cdn.pixabay.com/photo/2024/03/26/11/57/woman-8656653_1280.jpg',
@@ -80,6 +81,14 @@ function Home() {
                     title="Leather Jacket"
                     price="7999"
                     image="laptop.png"
+                />
+            </div>
+            <div className="p-8">
+                <PriceOffBanner
+                    originalPrice="4999"
+                    discountedPrice="3549"
+                    message="Get it now"
+                    imageUrl="https://cdn.pixabay.com/photo/2018/12/09/11/24/sale-3864704_1280.jpg"
                 />
             </div>
             <Footer/>

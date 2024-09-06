@@ -29,7 +29,9 @@ function FeaturedCard({
                     <SlDirections className="text-gray-500 hover:text-gray-600 transition-colors duration-300"/>
                 </div>
             </div>
-            <img src={image} alt={title} className="w-full h-[180px] mt-6 mb-6 object-cover rounded-t-lg"/>
+            <div className="px-4">
+                <img src={image} alt={title} className="w-full h-[180px] mt-6 mb-6 object-cover rounded-t-lg"/>
+            </div>
             <div className="p-4">
                 <span className="block text-lg font-semibold text-gray-800">{title}</span>
                 <div className="flex items-center mt-1">
