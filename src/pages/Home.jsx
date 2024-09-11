@@ -32,25 +32,25 @@ function Home() {
                     category="Electronics"
                     title="Smartphone XYZ"
                     price="29999"
-                    image="laptop.png"
+                    image="https://cdn.pixabay.com/photo/2019/12/27/01/48/samsung-4721549_1280.jpg"
                 />
                 <FeaturedCard
                     category="Home Appliances"
                     title="Air Conditioner ABC"
                     price="45999"
-                    image="laptop.png"
+                    image="https://cdn.pixabay.com/photo/2019/12/27/01/48/samsung-4721549_1280.jpg"
                 />
                 <FeaturedCard
                     category="Fashion"
                     title="Leather Jacket"
                     price="7999"
-                    image="laptop.png"
+                    image="https://cdn.pixabay.com/photo/2019/12/27/01/48/samsung-4721549_1280.jpg"
                 />
                 <FeaturedCard
                     category="Fashion"
                     title="Leather Jacket"
                     price="7999"
-                    image="laptop.png"
+                    image="https://cdn.pixabay.com/photo/2019/12/27/01/48/samsung-4721549_1280.jpg"
                 />
             </div>
             <div className="flex flex-row justify-between px-12 items-center mt-6">

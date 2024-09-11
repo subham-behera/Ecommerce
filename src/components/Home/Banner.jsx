@@ -1,6 +1,7 @@
 import { BiSupport } from "react-icons/bi";
 import { CiLocationOn, CiWallet } from "react-icons/ci";
 import { MdOutlineAccountBalanceWallet, MdOutlineLocalShipping } from "react-icons/md";
+import Searchpanel from "./Searchpanel";
 
 function Banner() {
     return (
@@ -27,7 +28,9 @@ function Banner() {
             </div>
             <div className="flex flex-row justify-between px-8 py-4 items-center">
                 <span className="font-bold font-sans text-4xl">Blaze.</span>
-                <div></div>
+                <div>
+                    <Searchpanel/>
+                </div>
                 <div className="flex flex-row items-center gap-x-3">
                     <BiSupport className="text-4xl"/>
                     <div className="flex flex-col text-right">
