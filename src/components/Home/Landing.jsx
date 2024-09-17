@@ -19,7 +19,7 @@ function Landing({ images }) {
     }, []);
 
     return (
-        <div className="relative w-full h-80 overflow-hidden bg-gray-200">
+        <div className="relative container mx-auto w-[85%] h-96 overflow-hidden bg-gray-200">
             <div className="absolute inset-0 flex items-center justify-center">
                 <img
                     src={images[currentIndex]}

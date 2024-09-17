@@ -35,7 +35,7 @@ function Banner() {
                     <BiSupport className="text-4xl"/>
                     <div className="flex flex-col text-right">
                         <span className="text-xl font-semibold">+91 9874589655</span>
-                        <span>subham123@gmail.com</span>
+                        <span>blazesneakers@gmail.com</span>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import { useState } from "react";
 import Reviews from "../components/Details/Reviews";
 
 function Details() {
-    const [pic, setPic] = useState("https://cdn.pixabay.com/photo/2024/04/29/04/21/tshirt-8726721_1280.jpg");
+    const [pic, setPic] = useState("https://img.freepik.com/premium-photo/pair-white-blue-sneakers-with-blue-stripe_1003619-4328.jpg?w=740");
 
     const handleChange = (image) => {
         setPic(image);
@@ -16,7 +16,10 @@ function Details() {
             <div id="left" className="flex flex-col lg:w-1/2">
                 <div className="flex flex-col lg:flex-row lg:space-x-4 px-4 py-4">
                     <div className="flex flex-row space-x-2 lg:flex-col lg:space-x-0 lg:space-y-2">
-                        {['https://cdn.pixabay.com/photo/2024/04/29/04/21/neon-8726714_1280.jpg', 'https://cdn.pixabay.com/photo/2024/04/29/04/21/tshirt-8726721_1280.jpg', 'tshirt3.png', 'tshirt4.png'].map((img, index) => (
+                        {['https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?w=740&t=st=1726568010~exp=1726568610~hmac=df4604c30287837df4207147272caa4bb1688f9efc50b7ed06a983dd3c71ed77', 
+                        'https://img.freepik.com/free-vector/color-sport-sneaker_98292-3191.jpg?w=740&t=st=1726568034~exp=1726568634~hmac=935255e2b55c61ed9c6620e9b777102e12e67fcadb09b30b6e002ddb4f0b3654',
+                        'https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?w=900&t=st=1726568058~exp=1726568658~hmac=dff600d9ea1e1dca3314ee19c5d04d5fe057b5623542f627816d10aa278cb7d7',
+                        'https://img.freepik.com/premium-photo/pair-white-blue-sneakers-with-blue-stripe_1003619-4328.jpg?w=740'].map((img, index) => (
                             <button key={index} onClick={() => handleChange(img)} className="flex-none">
                                 <img src={img} alt={`Thumbnail ${index + 1}`} className="h-20 w-20 rounded-md shadow-md transition-transform transform hover:scale-105"/>
                             </button>
@@ -51,7 +54,7 @@ function Details() {
                 </div>
             </div>
             <div id="right" className="flex flex-col lg:w-1/2 lg:pl-8 mt-6 lg:mt-0">
-                <h1 className="text-4xl font-bold text-gray-900 mb-2">Jenny’s Closets - The Winter Top for Female, Green</h1>
+                <h1 className="text-4xl font-bold text-gray-900 mb-2">City Pulse: Sneakers That Move With You</h1>
                 <div className="flex items-center mb-4">
                     <div className="flex text-yellow-500">
                         <IoStar/><IoStar/><IoStar/><IoStar/><IoStar/>
@@ -68,9 +71,9 @@ function Details() {
                 </div>
                 <h2 className="text-xl font-medium mb-2">Features</h2>
                 <ul className="list-disc list-inside mb-4 text-gray-800">
-                    <li>Made with full cotton</li>
-                    <li>Slim fit for any body type</li>
-                    <li>Quality control by JC</li>
+                    <li>Bold colors and dynamic patterns</li>
+                    <li>Enhanced grip for varied terrains</li>
+                    <li>Sleek design for modern style</li>
                 </ul>
                 <h2 className="text-xl font-medium mb-2">Colors</h2>
                 <div className="flex space-x-3 mb-4">
